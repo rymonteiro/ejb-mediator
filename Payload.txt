@@ -1,0 +1,29 @@
+Request:
+---------
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header/>
+   <soapenv:Body>
+    <getcloseststore>
+        <latitude>80</latitude>
+        <longitude>9</longitude>
+    </getcloseststore>
+  </soapenv:Body>
+</soapenv:Envelope>
+
+Response:
+---------
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body>
+      <getClosestStoreResponse>
+         <store>
+            <name>Dehiwala</name>
+            <address>67, Galle Road, Dehiwala.</address>
+            <phone>0114789056</phone>
+         </store>
+      </getClosestStoreResponse>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+Reference:
+----------
+http://www.dushantech.com/2012/06/syntaxhighlighter.html
